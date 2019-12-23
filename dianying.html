@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>猫眼电影 - 一网打尽好电影</title>
+    <script src="https://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="layui-v2.5.5/layui/css/layui.css">
+    <script src="layui-v2.5.5/layui/layui.all.js"></script>
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <script src="bootstrap-3.3.7-dist/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/top.css">
+    <link rel="stylesheet" href="css/dianying.css">
+</head>
+<body>
+<div id="header">
+    <div class="header">
+        <div class="header-1"><a href=""><img src="img/icon.png" alt=""></a></div>
+        <div class="city">郑州  <span class="caret"></span></div>
+        <ul>
+            <li><a href="index.html">首页</a></li>
+            <li class="header-red"><a href="./dianying.html">电影</a></li>
+            <li><a href="">影院</a></li>
+            <li><a href="">演出</a></li>
+            <li><a href="">榜单</a></li>
+            <li><a href="">热点</a></li>
+            <li><a href="">商城</a></li>
+        </ul>
+        <div class="header-3">
+            <img src="img/iconmoble.png" alt=""><span>APP下载</span><span class="caret"></span>
+        </div>
+        <div class="header-4">
+            <input type="text" placeholder="找影视剧、影人、影院">
+            <div><img src="img/sousuo.png" alt=""></div>
+        </div>
+        <div class="header-5">
+            <img src="img/touxiang.png">
+            <span class="caret"></span>
+        </div>
+    </div>
+
+</div>
+
+
+<div class="main layui-tab">
+    <div class="main-t1">
+        <ul class="layui-tab-title">
+            <li class="layui-this">正在热映</li>
+            <li>即将上映</li>
+            <li>经典电影</li>
+        </ul>
+    </div>
+    <div class="main-t2">
+        <div>
+            <div>类型：</div>
+            <div>
+                <ul class="fenlei-t1 xifen">
+                    <li class="fenlei-red">全部</li>
+                    <li>爱情</li>
+                    <li>喜剧</li>
+                    <li>动画</li>
+                    <li>剧情</li>
+                    <li>恐怖</li>
+                    <li>惊悚</li>
+                    <li>科幻</li>
+                    <li>动作</li>
+                    <li>悬疑</li>
+                    <li>犯罪</li>
+                    <li>冒险</li>
+                    <li>战争</li>
+                    <li>奇幻</li>
+                    <li>运动</li>
+                    <li>家庭</li>
+                    <li>古装</li>
+                    <li>武侠</li>
+                    <li>西部</li>
+                    <li>历史</li>
+                    <li>传记</li>
+                    <li>歌舞</li>
+                    <li>黑色电影</li>
+                    <li>短片</li>
+                    <li>纪录片</li>
+                    <li>其他</li>
+                </ul>
+            </div>
+
+        </div>
+        <div>
+            <div>区域：</div>
+            <div>
+                <ul class="fenlei-t2 xifen">
+                    <li class="fenlei-red">全部</li>
+                    <li>大陆</li>
+                    <li>美国</li>
+                    <li>韩国</li>
+                    <li>日本</li>
+                    <li>中国香港</li>
+                    <li>中国台湾</li>
+                    <li>泰国</li>
+                    <li>印度</li>
+                    <li>法国</li>
+                    <li>英国</li>
+                    <li>俄罗斯</li>
+                    <li>意大利</li>
+                    <li>西班牙</li>
+                    <li>德国</li>
+                    <li>波兰</li>
+                    <li>澳大利亚</li>
+                    <li>伊朗</li>
+                    <li>其他</li>
+                </ul>
+            </div>
+        </div>
+        <div>
+            <div>年代：</div>
+            <div>
+                <ul class="fenlei-t3 xifen">
+                    <li class="fenlei-red">全部</li>
+                    <li>2019</li>
+                    <li>2018</li>
+                    <li>2017</li>
+                    <li>2016</li>
+                    <li>2015</li>
+                    <li>2014</li>
+                    <li>2013</li>
+                    <li>2012</li>
+                    <li>2011</li>
+                    <li>2000-2010</li>
+                    <li>90年代</li>
+                    <li>80年代</li>
+                    <li>70年代</li>
+                    <li>更早</li>
+                </ul>
+            </div>
+        </div>
+
+    </div>
+    <div class="main-t3 layui-tab-content">
+<!--        第一个界面正在热映-->
+            <div class="layui-tab-item layui-show">
+                <ul>
+                    <li><span></span>按热门排序</li>
+                    <li><span></span>按时间排序</li>
+                    <li><span></span>按评价排序</li>
+                </ul>
+                <div class="main-t3-center row">
+
+                </div>
+                <div class="main-t3-footer">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>下一页</span>
+                </div>
+            </div>
+<!--        第二个界面即将上映-->
+            <div class="layui-tab-item">
+                <ul>
+                    <li><span></span>按热门排序</li>
+                    <li><span></span>按时间排序</li>
+                </ul>
+                <div class="main-t3-center-two row">
+
+                </div>
+                <div class="main-t3-footer">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>下一页</span>
+                </div>
+            </div>
+<!--        第三个界面经典电影-->
+            <div class="layui-tab-item">
+                <ul>
+                    <li><span></span>按热门排序</li>
+                    <li><span></span>按时间排序</li>
+                    <li><span></span>按评价排序</li>
+                </ul>
+                <div class="main-t3-center-san row">
+
+                </div>
+                <div class="main-t3-footer">
+                    <span>1</span>
+                    <span>2</span>
+                    <span>3</span>
+                    <span>4</span>
+                    <span>...</span>
+                    <span>2016</span>
+                    <span>下一页</span>
+                </div>
+            </div>
+    </div>
+</div>
+
+
+
+<!--    底部-->
+<div class="footer">
+    <p>
+        关于猫眼：
+        <a href="">关于我们</a>
+        <span>|</span>
+        <a href="">管理团队</a>
+        <span>|</span>
+        <a href="">投资者关系</a>
+        &nbsp;
+        友情链接：
+        <a href="">美团网</a>
+        <span>|</span>
+        <a href="">格瓦拉</a>
+        <span>|</span>
+        <a href="">美团下载</a>
+        <span>|</span>
+        <a href="">欢喜首映</a>
+    </p>
+    <p>
+        商务合作邮箱：v@maoyan.com
+        客服电话：10105335
+        违法和不良信息举报电话：4006018900
+    </p>
+    <p>
+        用户投诉邮箱：tousujubao@meituan.com
+        舞弊线索举报邮箱：wubijubao@maoyan.com
+    </p>
+
+    <p>
+        <a href="">中华人民共和国增值电信业务经营许可证 京B2-20190350</a>
+        <span>|</span>
+        <a href="">营业性演出许可证 京演（机构）（2019）4094号</a>
+    </p>
+    <p>
+        <a href="">广播电视节目制作经营许可证 （京）字第08478号</a>
+        <span>|</span>
+        <a href="">网络文化经营许可证 京网文（2019）3837-369号 </a>
+    </p>
+    <p>
+        <a href="">猫眼用户服务协议</a>
+        <span>|</span>
+        <a href="">猫眼平台交易规则总则</a>
+        <span>|</span>
+        <a href="">隐私政策</a>
+    </p>
+    <p>
+        京公网安备 11010102003232号
+    </p>
+    <p>北京猫眼文化传媒有限公司</p>
+    <p>
+        ©2016 猫眼电影 maoyan.com</p>
+    <p style="margin-top: 20px;"><img src="img/wangluowenhua.png" alt=""><img src="img/dianzizhizhao.png" alt="" style="margin-left: 18px;"></p>
+</div>
+
+<script src="js/dianying-work.js"></script>
+
+<script>
+    $.ajax({
+        url: "shouye",
+        dataType: "json",
+        success: function (data) {
+            myshow(data);
+            // console.log(data)
+        }
+    });
+
+//在每次切换选项卡时将选择归到全部的位置
+    $(".layui-tab-title").children("li").click(function () {
+        $(".xifen").children("li").removeClass("fenlei-red")
+        $(".fenlei-t1").children("li:first").addClass("fenlei-red")
+        $(".fenlei-t2").children("li:first").addClass("fenlei-red")
+        $(".fenlei-t3").children("li:first").addClass("fenlei-red")
+
+    })
+    //分类点击变色
+    $(".fenlei-t1").children("li").click(function () {
+        $(".fenlei-t1").children("li").removeClass("fenlei-red")
+        $(this).addClass("fenlei-red")
+    })
+    $(".fenlei-t2").children("li").click(function () {
+        $(".fenlei-t2").children("li").removeClass("fenlei-red")
+        $(this).addClass("fenlei-red")
+    })
+    $(".fenlei-t3").children("li").click(function () {
+        $(".fenlei-t3").children("li").removeClass("fenlei-red")
+        $(this).addClass("fenlei-red")
+    })
+
+//获取点击的分类
+    $(".xifen").children("li").click(function () {
+        var a = new Array
+        // console.log($(".layui-this").text())
+        a.push($(".layui-this").text())//将分区信息存入数组
+        $(".fenlei-red").each(function () {
+            a.push($(this).text())
+        })
+
+        console.log(a)
+        $.ajax({
+            type: "post",
+            data: {"a1":a[0],"a2": a[1],"a3": a[2],"a4": a[3]},
+            url: "xiangxifenlei",
+            dataType: "json",
+            success: function (data) {
+                xiangxizhuanhuan(data,a[0])
+                console.log("成功！")
+            }
+        });
+    })
+//点击大分类时信息回到最初
+    $(".layui-tab-title li").click(function () {
+        $.ajax({
+            url: "shouye",
+            dataType: "json",
+            success: function (data) {
+                myshow(data);
+                // console.log(data)
+            }
+        });
+    })
+
+</script>
+</body>
+</html>
